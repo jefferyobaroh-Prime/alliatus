@@ -1,0 +1,852 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.genLayout {
+    padding: 1rem 6rem 1rem;
+    background-color: rgb(243, 241, 241);
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+nav{
+
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: white;
+    border: none;
+}
+
+.innerNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 1rem;
+    
+}
+
+.header {
+    font-size: 2rem;
+}
+
+.navBtn {
+    width: 700px;
+    height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBtn > button{
+    text-transform: capitalize;
+    background-color: transparent;
+    border: none;
+}
+
+.navBtn > :last-child > button{
+    text-transform: capitalize;
+    background-color: transparent;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+.rubbish{
+    
+    height: 6rem;
+}
+.one{
+    background-color: rgb(243, 241, 241);
+     font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.levelUp {
+    border-radius: 15px;
+    background-color: #ffdd81;
+    width: 86%;
+    padding: 4rem 3rem 0;
+    margin: auto;
+    position: relative;
+}
+.levelUp > h1 {
+    width: 530px;
+    font-size: 3.5rem;
+}
+
+.levelUp > h1 > span{
+    font-family: "playfair display", sans-serif;
+}
+
+.levelUp > h6{
+    font-size: 15px;
+}
+
+.levelUp > :nth-child(5){
+    font-size: 15px;
+    margin-top: -2rem;
+}
+
+.levelUp > p {
+    font-size: 20px;
+    width: 450px;
+    padding-block: 2rem 3rem;
+}
+
+.levelUp > .levelUpBtn > button{
+    height: 2rem;
+    border-radius: 5px;
+    border: 1px solid;
+    margin-block: 1rem;
+    margin-inline: .2rem;
+    padding-inline: 1.5rem;
+    text-transform: capitalize;
+}
+ 
+.levelUp > .levelUpBtn > :first-child{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.levelUp > .levelUpBtn > :last-child{
+    background-color: transparent;
+}
+
+.levelUp > img {
+    position: absolute;
+    margin-left: 40rem;
+    margin-top: -33rem;
+}
+.percent {
+    width: 86%;
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    margin: 1rem auto;
+    padding: 2rem 2rem;
+}
+
+.percentNum > h3 {
+    font-size: 1.5rem;
+}
+
+.percentNum > p {
+    width: 155px;
+}
+
+.two {
+    background-color:  rgb(243, 241, 241);
+    margin-top: -1rem;
+     font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.netGrp {
+    width: 86%;
+    margin: auto;
+    padding-block: 6rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.netGrp > h1 {
+    font-size: 3.1rem;
+    width: 450px;
+    text-transform: capitalize;
+    padding: 1rem 0 0 2rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.biggerDiv {
+    width: 86%;
+    
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    padding: 2rem 1rem 0;
+    position: relative;
+}
+
+.biggerDiv > :first-child{
+    
+    position: absolute;
+    margin-right: 35rem;
+    margin-bottom: .5rem;
+}
+.biggerDiv > :last-child {
+    
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+
+.smallDiv{
+    background-color: white;
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+}
+
+.smallDiv > h4 {
+    font-size: 12px;
+    padding-bottom: 1rem;
+}
+
+.bigDiv > :first-child{
+    background-color: transparent;
+}
+
+.three {
+    background-color:  rgb(243, 241, 241);
+    margin-top: -1rem;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.step{
+    width: 86%;
+    margin: auto;
+    padding-block: 2rem;
+}
+
+.step > p {
+    padding-block: 2rem;
+}
+
+.step > h1{
+    text-transform: capitalize;
+    font-size: 3rem;
+    width: 500px;
+}
+
+.step > h2{
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+}
+
+.rowOne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.oneTotwo {
+    width: 350px;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.rowOne > :first-child {
+    background-color: #ffdd81;
+}
+
+.rowOne > :nth-child(2){
+    background-color: white;
+}
+
+.rowOne > :last-child{
+    color: transparent;
+}
+
+.rowTwo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.threeFour{
+    margin-top: 2rem;
+    width: 350px;
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.rowTwo > :first-child{
+    background-color: transparent;
+    color: transparent;
+}
+
+.rowTwo > :nth-child(2){
+    background-color: transparent;
+    border: 1px solid black;
+}
+
+.rowTwo > :last-child{
+    background-color: white;
+}
+
+.rowThree{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+    position: relative;
+}
+
+.rowThree > :first-child{
+    width: 350px;
+}
+
+.whatInc{
+    width: 760px;
+    padding: 3rem 3rem;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 25rem;
+    position: relative;
+}
+
+.heaDer{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    gap: 10px;
+    padding-bottom: 1rem;
+}
+
+.heaDer > :first-child{
+    font-size: 2rem;
+}
+
+.heaDer > :last-child{
+    padding-bottom: 5px;
+}
+
+.whatInc > :first-child{
+    padding-bottom: 1rem;
+}
+
+.whatInc > :last-child{
+    width: 600px;
+    font-size: 1.1rem;
+}
+
+.oneTotwo > .img1 {
+    position: absolute;
+    z-index: 1;
+    margin-top: .1rem;
+    margin-left: -2rem;
+}
+.oneTotwo > .img2 {
+    position: absolute;
+    z-index: 2;
+    margin-top: -9.2rem;
+    margin-left: 1.3rem;
+}
+.oneTotwo > .img3 {
+    position: absolute;
+    z-index: 1;
+    margin-top: -17.2rem;
+    margin-left: -9rem;
+}
+.rowThree > img {
+    position: absolute;
+    margin-top: -11.7rem;
+}
+
+.four {
+    background-color:  rgb(243, 241, 241);
+    margin-top: -1rem;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.theFourth{
+    width: 86%;
+    margin: auto;
+    padding-block: 1rem;
+}
+
+.who{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-block: 2rem;
+}
+
+.who > h1{
+    font-size: 2.5rem;
+    padding-block: 1rem .3rem;
+}
+
+.who > h2{
+    font-size: 2.5rem;
+}
+
+.sideDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 2rem;
+}
+
+.forYou{
+    background-color: #ffdd81;
+    border-radius: 20px;
+    padding: 2rem 3rem;
+    width: 550px;
+}
+
+.forYou > h1{
+    padding-block: 2rem;
+}
+
+.goldDiv{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: .2rem .6rem;
+    margin-block: .5rem;
+    background-color: white;
+    width: 80%;
+}
+.forYou > :nth-child(5) {
+    width:85%;
+}
+
+.notForYou{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 2rem 3rem;
+    width: 550px;
+}
+
+.notForYou > h1{
+    padding-block: 2rem;
+}
+
+.greyDiv{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: .2rem .6rem;
+    margin-block: .5rem;
+    background-color: white;
+    width: 80%;
+}
+.notForYou > :nth-child(4){
+    width: 65%;
+}
+.notForYou > :nth-child(3){
+    width: 70%;
+}
+.notForYou > :nth-child(5){
+    width: 75%;
+}
+
+.five {
+    background-color:  rgb(243, 241, 241);
+    margin-top: -1rem;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;   
+}
+
+.theFifth{
+     width: 86%;
+    margin: auto;
+    padding-block: 1rem;   
+}
+
+.rowone {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1rem;
+    padding-block: 4rem 2rem;
+}
+
+.feedBack {
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: white;
+    font-size: 1.1rem;
+}
+
+.rowtwo{
+     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    gap: 1rem;
+}
+
+.memBers > h1{
+    font-size: 3rem;
+}
+
+.memBers{
+    width: 350px;
+}
+
+.feedBack > :last-child{
+    margin-top: 2rem;
+}
+
+.rowtwo > :first-child > :last-child{
+    margin-top: 3rem;
+}
+
+.six {
+    background-color:  rgb(243, 241, 241);
+    margin-top: -1rem;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;   
+}
+
+.theSixth{
+    width: 86%;
+    margin: auto;
+    padding-block: 1rem;   
+}
+
+.yourHost{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding-block: 4rem 3rem;
+}
+
+.yourHost > h1{
+    font-size: 3rem;
+}
+
+.tutors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 22%;
+    padding-block: 1rem;
+}
+
+.hosts > :nth-child(2){
+    font-size: 2.1rem;
+    padding-block: 1rem;
+}
+
+.hosts > :nth-child(3){
+    font-size: .9rem;
+    padding-bottom: 1rem;
+}
+
+.hosts > :nth-child(4){
+    padding-bottom: 1rem;
+}
+
+.hosts{
+    display: flex;
+    flex-direction: column;
+}
+
+.tutorsOga{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.seven{
+    background-color:  rgb(243, 241, 241);
+    margin-top: -1rem;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;   
+}
+
+.theSeventh{
+     width: 86%;
+    margin: auto;
+    padding-block: 1rem;   
+}
+
+.pricing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-block: 2.5rem;
+}
+
+.pricing > h1{
+    font-size: 3rem;
+}
+
+.plansDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.plansDiv > :nth-child(2){
+    background-color: #ffdd81;
+}
+
+.plans{
+    
+    border-radius: 20px;
+    background-color: white;
+    width: 350px;
+    padding: 4rem;
+}
+
+.plans > h3 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.plans > p{
+    font-size: .8rem;
+    padding-bottom: 10px;
+}
+
+.plans > h4{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.8rem;
+    padding-bottom: 2rem;
+}
+
+.buton > button{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: .7rem 2rem;
+}
+
+.buton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.plansDiv > :first-child > .buton{
+    padding-top: 1.8rem;
+}
+
+.eight{
+    background-color:  rgb(243, 241, 241);
+    margin-top: -1rem;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;   
+}
+
+.theEight{
+    width: 86%;
+    margin: auto;
+    padding-block: 1rem;   
+}
+
+.moreInfo {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.FAQ {
+    width: 550px;
+}
+
+.FAQ > h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    padding-block: 2rem 3rem;
+}
+
+.faqCard {
+    padding: 2rem 2rem;
+    border: 1px solid;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.longTerm {
+    width: 550px;
+}
+
+.FAQ > :nth-child(3){
+    border: none;
+    background-color: #ffdd81;
+}
+
+.FAQ > :nth-child(3) > :first-child{
+    padding-bottom: 1rem;
+}
+
+.faqCard > img{
+    position: absolute;
+    margin-left: 29.6rem;
+    margin-top: -1.3rem;
+}
+
+.FAQ > :nth-child(3) > img {
+    margin-top: -5.7rem;
+}
+.FAQ > :nth-child(3) > :nth-child(2){
+    width: 450px;
+}
+
+.nine{
+    background-color:  rgb(243, 241, 241);
+    margin-top: -1rem;  
+    padding-block: 2rem 3rem;
+    font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; 
+}
+
+.theNinth{
+    width: 86%;
+    margin: auto;
+    padding: 2rem 2rem 3rem 2rem;
+    color: white;
+    background-color: black;
+    border-radius: 20px;   
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+
+}
+
+.anchorCards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding-block: 2rem;
+}
+
+.faq > a {
+    color: white;
+    text-decoration: none;
+}
+.hoMe > a {
+    color: white;
+    text-decoration: none;
+}
+
+.hoMe{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8rem;
+    text-transform: capitalize;
+}
+.faq{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.8rem;
+}
+
+.socials {
+    padding-bottom: 3rem;
+    display: flex;
+    flex-direction: row;
+    width: 130px;
+    justify-content: space-between;
+}
+
+.joinAlliatus{
+    border: 1px solid white;
+    margin-top: 2rem;
+    width: 550px;
+    color: black;
+    background-color: #ffdd81;
+    border-radius: 20px;
+    padding-block: 2rem 2rem;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.joinAlliatus > p {
+    padding-bottom: 2rem;
+    width: 400px;
+}
+
+.joinAlliatus > h1 {
+    padding-bottom: 2rem;
+    text-transform: capitalize;
+}
+
+.joinAlliatus > .buton {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.joinAlliatus > :last-child{
+    position: absolute;
+    margin-left: 23rem;
+    margin-top: -6.5rem;
+}
+
+.joinAlliatus > :nth-child(5){
+    position: absolute;
+    z-index: 3;
+    margin-left: 21rem;
+    margin-top: -4.5rem;
+}
