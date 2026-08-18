@@ -44,11 +44,23 @@ nav{
     align-items: center;
 }
 
-.navBtn > button{
+.navItem{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItem > button{
     text-transform: capitalize;
     background-color: transparent;
     border: none;
 }
+
+#toggle, .hamburger{
+    display: none;
+}
+
 
 .navBtn > :last-child > button{
     text-transform: capitalize;
@@ -61,8 +73,11 @@ nav{
 
 .rubbish{
     
-    height: 6rem;
+    height: 8rem;
+     background-color: rgb(243, 241, 241);
 }
+
+styling for section one 
 .one{
     background-color: rgb(243, 241, 241);
      font-family: "Playfair Display", serif;
@@ -70,6 +85,7 @@ nav{
   font-weight: 400;
   font-style: normal;
 }
+
 .levelUp {
     border-radius: 15px;
     background-color: #ffdd81;
@@ -850,3 +866,333 @@ nav{
     margin-left: 21rem;
     margin-top: -4.5rem;
 }
+
+@media (min-width: 260px) and (max-width: 460px){
+    .innerNav{
+        width: 100%;
+        margin: auto;
+        display:flex;
+        padding: 1rem;
+    }
+
+    .header{
+        font-size: 1.5rem;
+    }
+    
+
+    .hamburger{
+        display: block;
+        font-size: 2rem;
+    }
+
+    .navBtn{
+        position: absolute;
+        top: 4rem;
+        right: 3px;
+        background-color: rgb(243, 241, 241);
+        z-index: 1;
+        padding: 1.4rem 1rem;
+        width: 85%;
+        transform: translate(100%, 0);
+        transition: transform 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+        /* flex-direction: column;
+        gap: 1rem; */
+    }
+
+     #toggle:checked + .navBtn{
+        display: block;
+        transform: none;
+    }
+
+    .navItem{
+        flex-direction: column;
+        gap: 1rem;
+        background-color: rgb(243, 241, 241);
+    }
+
+    .navItem > button{
+        /* border-top: 2px solid; */
+        padding-block: .5rem;
+        color: #000;
+        background-color: rgb(243, 241, 241);
+    }
+
+    .navBtn > :last-child{
+        background-color: rgb(243, 241, 241);
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1rem;
+    }
+
+    .one{
+        background-color: rgb(243, 241, 241);
+    }
+
+    .levelUp > img{
+        width: 250px;
+        height: 30vh;
+        margin-left: 1rem;
+        margin-top: 20rem;
+    }
+
+    .levelUp{
+        width: 340px;
+        height: 80vh;
+        padding: 1.5rem 1.3rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .levelUp > h1{
+        font-size: 1.5rem;
+        width: 15rem;
+    }
+
+    .levelUp > p{
+        width: 15rem;
+        font-size: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    .levelUpBtn{
+        display: flex;
+        flex-direction: row;
+    } 
+
+    .levelUpBtn > button {
+        font-size: 12px;
+    }
+
+    .percent{
+        display: flex;
+        overflow-x: scroll;
+    }
+
+    .netGrp{
+        padding-top: 3rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .netGrp > p{
+        font-size: 13px;
+    }
+
+    .netGrp > h1 {
+        font-size: 2rem;
+    }
+
+    .lapPic > img{
+        display: none;
+    }
+    .one {
+        width: 390px;
+    }
+    .two {
+        width: 390px;
+    }
+    .three {
+        width: 390px;
+    }
+    .four {
+        width: 390px;
+    }
+    .five {
+        width: 390px;
+    }
+    .six {
+        width: 390px;
+    }
+    .seven {
+        width: 390px;
+    }
+    .eight {
+        width: 390px;
+    }
+    .nine {
+        width: 390px;
+    }
+    .smallDiv {
+        width: 340px;
+        margin-left: -12rem;
+    }
+
+    .bigDiv {
+        margin-top: -4rem;
+    }
+
+    .step {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .step > h1 {
+        font-size: 2rem;
+    }
+
+    .rowOne {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
+    .rowTwo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .img1 > img{
+        margin-top: 6rem;
+        margin-left: 4rem;
+        z-index: 2;
+    }
+
+    .img2 > img{
+        margin-top: 9rem;
+        margin-left: 9rem;
+    }
+
+    .img3 > img{
+        margin-top: 10rem;
+        margin-left: 7rem;
+    }
+
+    .rowThree > img {
+        margin-top: 40rem;
+        margin-left: -.5rem;
+    }
+
+    .threeFour {
+        gap: 2rem;
+    }
+
+    .whatInc {
+        /* position: absolute; */
+        margin-left: -.6rem;
+        /* margin-top: 64rem; */
+        width: 360px;   
+        overflow-x: scroll;
+    }
+
+
+    .who {
+        padding-top: 25rem;
+    }
+
+    .sideDiv {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .forYou {
+        width: 360px;
+    }
+
+    .forYou > h1 {
+        font-size: 1.5rem;
+    }
+
+    .forYou > img {
+        width: 100%;
+    }
+    .notForYou {
+        width: 360px;
+    }
+
+    .notForYou > h1 {
+        font-size: 1.5rem;
+    }
+
+    .notForYou > img {
+        width: 100%;
+    }
+
+    .memBers > h1{
+        font-size: 1.5rem;
+        width: 60%;
+        padding-block: 1rem 2rem;
+    }
+
+    .rowone{
+        display: flex;
+        flex-direction: column;
+    }
+    .rowtwo{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tutorsOga {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tutors{
+        width: 360px;
+    }
+
+    .plansDiv {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .moreInfo {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .FAQ {
+        width: 360px;
+    }
+
+    .longTerm {
+        width: 100%;
+    }
+
+    .longTerm > img {
+        width: 100%;
+    }
+
+    .FAQ > :nth-child(3) p {
+        font-size: 15px;
+    }
+
+    .faqCard > img {
+        margin-left: 17rem;
+        margin-top: -2rem;
+    }
+
+
+    .footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .joinAlliatus {
+    width: 300px;
+    margin-left: -.9rem;
+    }
+
+    .joinAlliatus > p {
+        width: 260px;
+    }
+
+    .joinAlliatus > :nth-child(5) > img {
+        margin-left: -12rem;
+        margin-top: 1rem;
+        width: 65px;
+    }
+
+    .joinAlliatus > :last-child > img {
+        margin-left: -12rem;
+        margin-top: 1rem;
+        width: 90px;
+    }
+}   
+
