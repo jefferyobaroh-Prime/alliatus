@@ -871,8 +871,7 @@ styling for section one
     .innerNav{
         width: 100%;
         margin: auto;
-        display:flex;
-        padding: 1rem;
+        padding: 2rem 3rem 2rem 2rem;
     }
 
     .header{
@@ -930,15 +929,15 @@ styling for section one
     }
 
     .levelUp > img{
-        width: 250px;
-        height: 30vh;
-        margin-left: 1rem;
-        margin-top: 20rem;
+        width: 290px;
+        height: 50vh;
+        margin-left: 3rem;
+        margin-top: 18rem;
     }
 
     .levelUp{
-        width: 340px;
-        height: 80vh;
+        width: 440px;
+        height: 100vh;
         padding: 1.5rem 1.3rem;
         display: flex;
         flex-direction: column;
@@ -950,7 +949,7 @@ styling for section one
     }
 
     .levelUp > p{
-        width: 15rem;
+        width: 20rem;
         font-size: 1rem;
         padding-bottom: 1rem;
     }
@@ -987,35 +986,35 @@ styling for section one
         display: none;
     }
     .one {
-        width: 390px;
+        width: 100%;
     }
     .two {
-        width: 390px;
+        width: 100%;
     }
     .three {
-        width: 390px;
+        width: 100%;
     }
     .four {
-        width: 390px;
+        width: 100%;
     }
     .five {
-        width: 390px;
+        width: 100%;
     }
     .six {
-        width: 390px;
+        width: 100%;
     }
     .seven {
-        width: 390px;
+        width: 100%;
     }
     .eight {
-        width: 390px;
+        width: 100%;
     }
     .nine {
-        width: 390px;
+        width: 100%;
     }
     .smallDiv {
-        width: 340px;
-        margin-left: -12rem;
+        width: 440px;
+        margin-left: -15rem;
     }
 
     .bigDiv {
@@ -1046,6 +1045,14 @@ styling for section one
         gap: 1rem;
     }
 
+    .oneTotwo {
+        width: 440px;
+    }
+
+    .threeFour{
+        width: 440px;
+    }
+
     .img1 > img{
         margin-top: 6rem;
         margin-left: 4rem;
@@ -1064,7 +1071,7 @@ styling for section one
 
     .rowThree > img {
         margin-top: 40rem;
-        margin-left: -.5rem;
+        margin-left: 3.2rem;
     }
 
     .threeFour {
@@ -1073,9 +1080,9 @@ styling for section one
 
     .whatInc {
         /* position: absolute; */
-        margin-left: -.6rem;
+        margin-left: .3rem;
         /* margin-top: 64rem; */
-        width: 360px;   
+        width: 440px;   
         overflow-x: scroll;
     }
 
@@ -1090,7 +1097,7 @@ styling for section one
     }
 
     .forYou {
-        width: 360px;
+        width: 440px;
     }
 
     .forYou > h1 {
@@ -1101,7 +1108,7 @@ styling for section one
         width: 100%;
     }
     .notForYou {
-        width: 360px;
+        width: 440px;
     }
 
     .notForYou > h1 {
@@ -1116,6 +1123,10 @@ styling for section one
         font-size: 1.5rem;
         width: 60%;
         padding-block: 1rem 2rem;
+    }
+
+    .feedBack {
+        width: 440px;
     }
 
     .rowone{
@@ -1133,7 +1144,7 @@ styling for section one
     }
 
     .tutors{
-        width: 360px;
+        width: 440px;
     }
 
     .plansDiv {
@@ -1142,13 +1153,22 @@ styling for section one
         gap: 3rem;
     }
 
+    .plans {
+        width: 440px;
+    }
+
+    .plans > :nth-child(2) {
+        display: flex;
+        justify-content: center;
+    }
+
     .moreInfo {
         display: flex;
         flex-direction: column;
     }
 
     .FAQ {
-        width: 360px;
+        width: 440px;
     }
 
     .longTerm {
@@ -1164,7 +1184,7 @@ styling for section one
     }
 
     .faqCard > img {
-        margin-left: 17rem;
+        margin-left: 23rem;
         margin-top: -2rem;
     }
 
@@ -1175,22 +1195,22 @@ styling for section one
     }
 
     .joinAlliatus {
-    width: 300px;
+    width: 420px;
     margin-left: -.9rem;
     }
 
     .joinAlliatus > p {
-        width: 260px;
+        width: 300px;
     }
 
     .joinAlliatus > :nth-child(5) > img {
-        margin-left: -12rem;
+        margin-left: -6rem;
         margin-top: 1rem;
         width: 65px;
     }
 
     .joinAlliatus > :last-child > img {
-        margin-left: -12rem;
+        margin-left: -6rem;
         margin-top: 1rem;
         width: 90px;
     }
