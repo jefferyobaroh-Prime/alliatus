@@ -869,7 +869,7 @@ styling for section one
 
 @media (min-width: 260px) and (max-width: 460px){
     .innerNav{
-        width: 100%;
+        width: 360px;
         margin: auto;
         padding: 2rem 3rem 2rem 2rem;
     }
@@ -931,12 +931,12 @@ styling for section one
     .levelUp > img{
         width: 290px;
         height: 50vh;
-        margin-left: 3rem;
-        margin-top: 18rem;
+        margin-left: -1rem;
+        margin-top: 21rem;
     }
 
     .levelUp{
-        width: 440px;
+        width: 320px;
         height: 100vh;
         padding: 1.5rem 1.3rem;
         display: flex;
@@ -949,7 +949,7 @@ styling for section one
     }
 
     .levelUp > p{
-        width: 20rem;
+        width: 17rem;
         font-size: 1rem;
         padding-bottom: 1rem;
     }
@@ -986,35 +986,39 @@ styling for section one
         display: none;
     }
     .one {
-        width: 100%;
+        width: 360px;
     }
     .two {
-        width: 100%;
+        width: 360px;
     }
     .three {
-        width: 100%;
+        width: 360px;
     }
     .four {
-        width: 100%;
+        width: 360px;
     }
     .five {
-        width: 100%;
+        width: 360px;
     }
     .six {
-        width: 100%;
+        width: 360px;
     }
     .seven {
-        width: 100%;
+        width: 360px;
     }
     .eight {
-        width: 100%;
+        width: 360px;
     }
     .nine {
-        width: 100%;
+        width: 360px;
+    }
+
+    .theFourth {
+        margin-top: -26rem;
     }
     .smallDiv {
-        width: 440px;
-        margin-left: -15rem;
+        width: 320px;
+        margin-left: -11.5rem;
     }
 
     .bigDiv {
@@ -1046,11 +1050,11 @@ styling for section one
     }
 
     .oneTotwo {
-        width: 440px;
+        width: 320px;
     }
 
     .threeFour{
-        width: 440px;
+        width: 320px;
     }
 
     .img1 > img{
@@ -1070,8 +1074,10 @@ styling for section one
     }
 
     .rowThree > img {
-        margin-top: 40rem;
-        margin-left: 3.2rem;
+        /* margin-top: 40rem;
+        margin-left: -2rem;
+        width: ; */
+        display: none;
     }
 
     .threeFour {
@@ -1082,7 +1088,7 @@ styling for section one
         /* position: absolute; */
         margin-left: .3rem;
         /* margin-top: 64rem; */
-        width: 440px;   
+        width: 330px;   
         overflow-x: scroll;
     }
 
@@ -1097,7 +1103,7 @@ styling for section one
     }
 
     .forYou {
-        width: 440px;
+        width: 320px;
     }
 
     .forYou > h1 {
@@ -1108,7 +1114,7 @@ styling for section one
         width: 100%;
     }
     .notForYou {
-        width: 440px;
+        width: 320px;
     }
 
     .notForYou > h1 {
@@ -1119,6 +1125,14 @@ styling for section one
         width: 100%;
     }
 
+    .goldDiv {
+        font-size: 8px;
+    }
+
+    .greyDiv {
+        font-size: 8px;
+    }
+
     .memBers > h1{
         font-size: 1.5rem;
         width: 60%;
@@ -1126,7 +1140,7 @@ styling for section one
     }
 
     .feedBack {
-        width: 440px;
+        width: 320px;
     }
 
     .rowone{
@@ -1144,17 +1158,18 @@ styling for section one
     }
 
     .tutors{
-        width: 440px;
+        width: 320px;
     }
 
     .plansDiv {
         display: flex;
         flex-direction: column;
         gap: 3rem;
+        margin-left: -.4rem;
     }
 
     .plans {
-        width: 440px;
+        width: 320px;
     }
 
     .plans > :nth-child(2) {
@@ -1168,7 +1183,7 @@ styling for section one
     }
 
     .FAQ {
-        width: 440px;
+        width: 320px;
     }
 
     .longTerm {
@@ -1195,24 +1210,29 @@ styling for section one
     }
 
     .joinAlliatus {
-    width: 420px;
-    margin-left: -.9rem;
+    width: 280px;
+    margin-left: -1rem;
     }
 
     .joinAlliatus > p {
-        width: 300px;
+        width: 260px;
+        margin-left: -1rem;
     }
 
     .joinAlliatus > :nth-child(5) > img {
-        margin-left: -6rem;
+        margin-left: -13rem;
         margin-top: 1rem;
         width: 65px;
     }
 
     .joinAlliatus > :last-child > img {
-        margin-left: -6rem;
+        margin-left: -13rem;
         margin-top: 1rem;
         width: 90px;
+    }
+
+    .buton {
+        margin-left: -.7rem;
     }
 }   
 
