@@ -870,7 +870,7 @@ styling for section one
 @media (min-width: 260px) and (max-width: 460px){
     .innerNav{
         width: 360px;
-        margin-left: -5rem;
+        margin: auto;
         padding: 2rem 3rem 2rem 2rem;
     }
 
